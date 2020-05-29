@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salary Calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <h1>Calculate your net salary</h1>
+    </header>
+
+    <main>
+        <input type="number" id="grossSalary" placeholder="Type your gross salary">
+        <input type="submit" onclick="activateAll()" value="Calculate">      
+        <p>Your gross salary is</p>              
+        <p id= "typedValue"></p>
+        <p>Your net salary is</p>
+        <p id="finalValue"></p>
+            
+    </main>
+
+    <footer>
+        <p>Save your money. Invest in your dream!</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

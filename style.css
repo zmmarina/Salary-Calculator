@@ -1,0 +1,32 @@
+body{
+    background: rgb(11, 11, 85);
+    color: seashell;
+    text-align: center;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+h1{
+    font-size: 80px;
+    padding: 40px;
+}
+
+main{
+    font-size: 20px;
+    display: grid;
+    justify-items: center;
+       
+}
+
+#grossSalary{
+    margin-bottom: 10px;
+}
+
+footer{
+    background-color: skyblue;
+    color: rgb(11, 11, 85);
+    font-weight: bold;
+    padding: 2px;
+    margin-top:80px;
+    margin-bottom: none;
+}
